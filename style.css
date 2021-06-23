@@ -1,0 +1,65 @@
+.btn {
+    background-color: rgb(44, 202, 241);
+    color: white;
+    width: 100px;
+    height: 25px;
+    font-size: 11px;
+    box-shadow: 3px 4px black;
+    font-size: 14px;
+}
+
+.nav {
+    width: 700px;
+    height: 60px;
+    border: 2px solid black;
+    background-color: rgb(95, 93, 93);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: 'Ebrima','Corbel','Candara','Arial',sans-serif;
+}
+
+[href="#"] {
+    text-decoration: none;
+}
+
+ul.nav-links {
+    justify-content: flex-end;
+}
+
+.nav, .nav-title, .nav-links {
+    display: flex;
+    align-items: center;
+}
+
+ul, li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    justify-content: space-evenly;
+    font-size: 12px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+}
+
+li {
+    text-align:justify;
+    color: white;
+    margin: 0px 10px;
+}
+
+h1.nav-title {
+    margin-right: 200px;
+    font-size: 30px;
+}
+
+a:visited {
+    color: rgb(240, 206, 212);
+  }
